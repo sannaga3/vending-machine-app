@@ -12,7 +12,7 @@ type WalletState = {
   money: number;
 };
 
-const initialWalletState: WalletState = {
+export const initialWalletState: WalletState = {
   owner: null,
   money: 0,
 };
